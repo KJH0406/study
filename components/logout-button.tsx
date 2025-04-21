@@ -16,7 +16,7 @@ export function LogoutButton() {
   }
 
   return (
-    <Button variant="outline" onClick={handleLogout}>
+    <Button variant="destructive" onClick={handleLogout}>
       로그아웃
     </Button>
   )

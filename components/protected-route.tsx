@@ -5,7 +5,7 @@ import { useSession } from "@/lib/use-session"
 import { useEffect } from "react"
 
 // 로그인하지 않아도 접근할 수 있는 예외적인 URL 목록
-const publicRoutes = ["/login", "/register"]
+const publicRoutes = ["/login", "/signup"]
 
 // 보호된 라우트(로그인 후 접근 가능)
 export function ProtectedRoute({ children }: { children: React.ReactNode }) {
